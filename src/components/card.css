@@ -1,0 +1,15 @@
+.dashboard-card{
+    border-radius: 20px;
+}
+
+.linechart-responsive{
+	height: 250px;
+}
+
+
+@media screen and (min-width: 768px) { 
+	.linechart-responsive{
+		height: 350px;
+	}
+}
+

@@ -1,0 +1,33 @@
+//Types for Authentication
+
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
+//export const CHECK_AUTH = 'CHECK_AUTH';
+export const ERROR_LOGIN = 'ERROR_LOGIN';
+export const REMOVE_ERROR = 'REMOVE_ERROR';
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_REQUEST_END = 'LOGIN_REQUEST_END';
+
+
+//Types to get Data
+
+export const GET_PIE_DATA = 'GET_PIE_DATA';
+export const GET_LINE_DATA = 'GET_LINE_DATA';
+export const GET_TABLE_DATA = 'GET_TABLE_DATA';
+
+export const REQUEST_PIE_DATA = 'REQUEST_PIE_DATA';
+export const REQUEST_LINE_DATA = 'REQUEST_LINE_DATA';
+export const REQUEST_TABLE_DATA = 'REQUEST_TABLE_DATA';
+
+export const FAILED_PIE_DATA = 'FAILED_PIE_DATA';
+export const FAILED_LINE_DATA = 'FAILED_LINE_DATA';
+export const FAILED_TABLE_DATA = 'FAILED_TABLE_DATA';
+
+
+export const REQUEST_END_PIE_DATA = 'REQUEST_END_PIE_DATA';
+export const REQUEST_END_LINE_DATA = 'REQUEST_END_LINE_DATA';
+export const REQUEST_END_TABLE_DATA = 'REQUEST_END_TABLE_DATA';
+
+export const REMOVE_PIE_FAILURE = 'REMOVE_PIE_FAILURE';
+export const REMOVE_LINE_FAILURE = 'REMOVE_LINE_FAILURE';
+export const REMOVE_TABLE_FAILURE = 'REMOVE_TABLE_FAILURE';
